@@ -22,4 +22,4 @@ Projeto acadêmico de um site em **HTML e CSS** para simular a versão online da
 Clone o repositório e abra o `index.html` no navegador.
 
 ```bash
-git clone https://github.com/seu-usuario/vinheria-agnello.git
+git clone https://github.com/Giovanna-Sant/vinheria-agnello.git
