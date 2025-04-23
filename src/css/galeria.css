@@ -7,12 +7,6 @@ body {
     background-color:  #f9f3d1;
 }
 
-header, footer {
-    background-color: #4b2e2e;
-    padding: 2rem;
-    color: #f9f3d1;
-}
-
 .home {
     display: flex;
     text-align: left;

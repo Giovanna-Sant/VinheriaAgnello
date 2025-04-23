@@ -1,0 +1,25 @@
+@import url(../css/contato.css);
+@import url(../css/galeria.css);
+@import url(../css/historia.css);
+@import url(../css/produtos.css);
+@import url(../css/index.css);
+
+/* Estilização do header e footer*/
+
+header ul, footer {
+    background-color: #4b2e2e;
+    padding: 2rem;
+    color: #f9f3d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+ul a {
+    padding: 0px 26px;
+}
+
+#logo {
+    max-width: 300px;
+}
