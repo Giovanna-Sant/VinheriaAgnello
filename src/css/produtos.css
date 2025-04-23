@@ -1,0 +1,10 @@
+#produtos {
+    img {
+        width: 260px;
+    }
+
+    .prod_vinho{
+        display: flex;
+        gap: 16px
+    }
+}

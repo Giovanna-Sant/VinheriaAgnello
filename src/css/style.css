@@ -4,7 +4,19 @@
 @import url(../css/produtos.css);
 @import url(../css/index.css);
 
-/* Estilização do header e footer*/
+/* Estilização gerais, header e footer*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  #f9f3d1;
+}
+
+main {
+    padding: 10px;
+}
 
 header ul, footer {
     background-color: #4b2e2e;
@@ -22,4 +34,8 @@ ul a {
 
 #logo {
     max-width: 300px;
+}
+
+img {
+    width: 200px;
 }

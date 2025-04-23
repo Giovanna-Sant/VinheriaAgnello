@@ -1,11 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    background-color:  #f9f3d1;
-}
 
 .home {
     display: flex;
@@ -30,13 +23,15 @@ main section {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-    padding: 3rem;
+    padding: 16px;
 }
 
-img {
-    width: 25rem;
-    border-radius: 10px;
-    box-shadow: #4b2e2e 0 0 20px;
+#galeria {
+        img {
+        width: 25rem;
+        border-radius: 10px;
+        box-shadow: #4b2e2e 0 0 20px;
+    }  
 }
 
 img:hover {
