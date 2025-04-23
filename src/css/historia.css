@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+  }
+  
+  ul {
+    padding-inline-start: 0;
+  }
+  
+  .title_header {
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    font: bold;
+    font-size: 3em;
+    margin-left: 50px;
+  }
+  
+  .ul_header {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+  }
+  
+  .link_header:hover {
+    text-decoration: underline;
+  }
+  
+  .section1 {
+    margin-top: 50px;
+  }
+  
+  .section1 p {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    text-align: justify;
+    font-size: 14px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    max-width: 1350px;
+  }
+  
+  .conteudohistoria {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .historia {
+    margin-right: 10px;
+  }
+  
+  .historia1 {
+    margin-left: 10px;
+  }
+  
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+ 
+  td:last-of-type {
+    text-align: center;
+  }
