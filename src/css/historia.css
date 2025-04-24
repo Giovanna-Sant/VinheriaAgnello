@@ -40,6 +40,21 @@
     font-family: "Roboto", sans-serif;
     max-width: 1350px;
   }
+
+  .vinicola {
+    width: 300px;
+    height: auto;
+    max-height: 450px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .vinicola:hover {
+    transform: scale(1.05);
+  }
   
   .conteudohistoria {
     display: flex;
@@ -49,17 +64,7 @@
   .historia {
     margin-right: 10px;
   }
-  
+
   .historia1 {
     margin-left: 10px;
-  }
-  
-  caption {
-    caption-side: bottom;
-    padding: 10px;
-    font-weight: bold;
-  }
- 
-  td:last-of-type {
-    text-align: center;
   }
