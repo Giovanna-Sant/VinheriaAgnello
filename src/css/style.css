@@ -39,3 +39,43 @@ ul a {
 img {
     width: 200px;
 }
+
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 23px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #4b2e2e;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+.produtos{
+    text-align: center;
+    padding: 100px 20px;
+    font-size: 25px;
+}
+
+.imagem{
+    justify-content: left;
+    padding: 20px;
+    width: 250px;
+}
+
+.prod_vinho{
+    display: flex;
+    gap: 16px
+}
+
+.imagem_produto{
+    display: flex;
+    flex-direction: row;
+}
