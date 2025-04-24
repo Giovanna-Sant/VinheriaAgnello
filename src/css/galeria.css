@@ -22,15 +22,15 @@ a {
 main section {
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
-    padding: 16px;
+    gap: 2rem;
+    padding: 2rem;
 }
 
 #galeria {
         img {
         width: 25rem;
         border-radius: 10px;
-        box-shadow: #4b2e2e 0 0 20px;
+        box-shadow: #4b2e2e 0 0 15px;
     }  
 }
 
