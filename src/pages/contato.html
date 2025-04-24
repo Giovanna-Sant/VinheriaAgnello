@@ -1,28 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="vinicola, vinhos, galeria de fotos, uvas, vinhedos, produção de vinho, ">
-    <meta name="description" content="Explore nossa galeria com imagens incríveis da vinheria.">
-    <title>Galeria - Vinheria Agnello</title>
+    <meta name="keywords" content="vinicola, vinhos, contato vinheria, uvas, vinhedos, produção de vinho, vinheria agnello ">
+    <meta name="description" content="Entre em contato com a Vinheria Agnello e agende sua visita. Tire dúvidas, faça encomendas de vinhos artesanais e conheça nossos rótulos exclusivos.">
+
+    <title>Contato - Vinheria Agnello</title>
     <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+        .conteudo {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            gap: 30px;
+            color: #4b2c2c;
+        }
+
+
+        .imagem {
+            width: 500px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px 0 #bea6a648;
+        }
+
+        .imagem img {
+            width: 500px;
+            height: auto;
+            display: block;
+        }
+
+
+        .contato {
+            width: 200px;
+            min-width: 500px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            background-color: #fefae0;
+            padding: 20px 50px 20px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px #4b2e2e48;
+        }
+
+        .contato input,
+        textarea {
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 500px;
+        }
+
+
+        .contato button {
+            background-color: #4b2c2c;
+            color: #fdf6d8;
+            padding: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+
+        .contato button:hover {
+            background-color: #3a1f1f;
+        }
+
+        .localizacao h2 {
+            font-size: 30px;
+            color: #4b2c2c;
+
+        }
+
+        .imagem:hover {
+            transform: scale(1.05);
+            
+        }
+
+        .tudo {
+            display: flex;
+            margin: auto;
+            gap: 100px;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <ul>
             <a href="historia.html">Nossa história</a>
             <a href="galeria.html">Galeria</a>
-            <a href="../../index.html"><img  id="logo" src="../assets/img/Vinheria Agnello.png" alt="Logo"></a>
+            <a href="../../index.html"><img id="logo" src="../assets/img/Vinheria Agnello.png" alt="Logo"></a>
             <a href="produtos.html">Produtos</a>
             <a href="contato.html">Contato</a>
         </ul>
     </header>
-    <main>
+    <main class="conteudo">
+        <h1>Fale Conosco</h1>
+        <p>Entre em contato para agendar uma visita, fazer encomendas ou tirar dúvidas.</p>
+        <br>
+
+        <div class="tudo">
+
+            <form class="contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+
+
+            </form>
+            <div class="localizacao">
+                <h2>Onde estamos</h2>
+                <br>
+                <div class="imagem">
+                    <img src="/src/assets/img/loja.jpg" alt="Imagem da Loja - Ficticia">
+                </div>
+                <br>
+                <p>Rua das Vinhas, 123 - São Paulo/SP</p>
+            </div>
+        </div>
 
     </main>
     <footer>
         <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
     </footer>
 </body>
+
 </html>
