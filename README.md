@@ -23,3 +23,11 @@ Clone o repositório e abra o `index.html` no navegador.
 
 ```bash
 git clone https://github.com/Giovanna-Sant/vinheria-agnello.git
+---------------------------------------------------------------
+Nome dos participantes:
+Dennis Nieto Generoso - RM563671.
+Giovanna da Silva Santos - RM566301.
+Giovanna Luiza Bento - RM563203.
+Isabella Jardin Marques - RM566470.
+Mayene Moura da Silva - RM564624.
+
