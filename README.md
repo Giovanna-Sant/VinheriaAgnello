@@ -19,6 +19,9 @@ Projeto acadêmico de um site em **HTML e CSS** para simular a versão online da
 - `css/style.css` – Estilos
 
 ## 🛠 Como usar
+Acesse o site no ar:
+https://giovanna-sant.github.io/VinheriaAgnello/
+
 Clone o repositório e abra o `index.html` no navegador.
 
 ```bash
