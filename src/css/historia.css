@@ -7,8 +7,6 @@
   }
   
   .title_header {
-    display: flex;
-    justify-content: flex-start;
     width: 500px;
     font: bold;
     font-size: 3em;
@@ -16,7 +14,6 @@
   }
   
   .ul_header {
-    display: flex;
     align-items: center;
     gap: 50px;
     list-style: none;
@@ -31,8 +28,6 @@
   }
   
   .section1 p {
-    display: flex;
-    justify-content: center;
     color: #000;
     text-align: justify;
     font-size: 14px;
@@ -56,10 +51,6 @@
     transform: scale(1.05);
   }
   
-  .conteudohistoria {
-    display: flex;
-    justify-content: center;
-  }
   
   .historia {
     margin-right: 10px;

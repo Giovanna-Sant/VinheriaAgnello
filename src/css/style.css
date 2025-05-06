@@ -22,7 +22,6 @@ header ul, footer {
     background-color: #4b2e2e;
     padding: 2rem;
     color: #f9f3d1;
-    display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
@@ -48,7 +47,6 @@ img {
 }
 
 .hero .btn {
-    display: inline-block;
     margin-top: 20px;
     background-color: #4b2e2e;
     color: white;
@@ -71,11 +69,9 @@ img {
 }
 
 .prod_vinho{
-    display: flex;
     gap: 16px
 }
 
 .imagem_produto{
-    display: flex;
     flex-direction: row;
 }
