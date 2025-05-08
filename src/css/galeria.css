@@ -1,10 +1,8 @@
-
-
 .home {
-  
     text-align: left;
     gap: 2rem;
     padding: 2rem 0;
+    display: flex;
 }
 
 a {
@@ -13,14 +11,14 @@ a {
 
 .intro {
     padding: 2rem;
-   
+    display: flex;
     flex-direction: column;
     gap: 1rem;
     color: #4b2e2e;
 }
 
 main section {
-   
+    display: flex;
     justify-content: space-between;
     gap: 2rem;
     padding: 2rem;
@@ -40,7 +38,7 @@ img:hover {
   }
 
 .video {
-   
+    display: flex;
     justify-content: center;
     padding: 5rem;
 }
