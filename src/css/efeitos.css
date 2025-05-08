@@ -1,0 +1,55 @@
+/*Efeito de pulsação na logo principal*/
+@keyframes pulsarLogo {
+    0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+}
+
+.animarLogo:hover{
+    animation: pulsarLogo 2s infinite;
+}
+
+
+/*Botões*/
+button:not(.btn):hover {
+    color: red;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+/*Página Contato*/
+.imagem-contato:hover {
+    transform: scale(1.05);
+    
+}
+
+.botao-contato:hover{
+    transform: scale(1.05);
+}
+
+form input:focus {
+    border: 2px solid #994848; 
+    outline: none; 
+}
+
+form textarea:focus {
+    border: 2px solid #994848; 
+    outline: none; 
+}
+
+.conteudo h1::before {
+    content: "🍇 ";
+    font-size: 50px;
+    margin-right: 8px;
+}
+
+
+
