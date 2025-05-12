@@ -64,4 +64,22 @@ video:hover {
     transition: 0.3s;
 }
 
+h2:hover, p:hover {
+    color: black;
+}
+
+h2::selection, p::selection {
+    background-color: #4b2e2e;
+    color: #f9f3d1;
+
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 4px;
+  background-color: #4b2e2e;
+  margin-top: 5px;
+}
 
