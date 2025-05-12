@@ -90,13 +90,8 @@ h2::after {
     color: #6b1e1e;
 }
 
-.titulo1::before {
-    content: "";
-    font-size: 1.2em;
-}
-
 .titulo1::after {
-    content: "";
+    content: " 🍷";
     font-size: 1.2em;
 }
 
@@ -107,4 +102,9 @@ h2::after {
 .vinicola:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
+}
+
+.titulo1 span {
+    text-decoration: underline;
+    text-decoration-color: #0f0101;
 }
