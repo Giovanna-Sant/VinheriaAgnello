@@ -51,5 +51,17 @@ form textarea:focus {
     margin-right: 8px;
 }
 
+/*galeria*/
+
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+
+
+video:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
 
 

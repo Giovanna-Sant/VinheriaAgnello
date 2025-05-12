@@ -32,11 +32,6 @@ main section {
     }  
 }
 
-img:hover {
-    transform: scale(1.05);
-    transition: 0.3s;
-  }
-
 .video {
     display: flex;
     justify-content: center;
@@ -46,11 +41,6 @@ img:hover {
 video {
     border-radius: 10px;
     box-shadow: #4b2e2e 0 0 20px;
-}
-
-video:hover {
-    transform: scale(1.05);
-    transition: 0.3s;
 }
 
 h1 {
