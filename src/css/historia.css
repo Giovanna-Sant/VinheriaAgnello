@@ -24,6 +24,8 @@ ul {
 
 .link_header:hover {
   text-decoration: underline;
+  color: #a52a2a;
+  transition: color 0.3s ease;
 }
 
 .section1 {
@@ -50,7 +52,6 @@ ul {
   transition: transform 0.3s ease;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
-
 
 .vinicola:hover {
   transform: scale(1.05);
