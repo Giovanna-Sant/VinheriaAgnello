@@ -83,5 +83,28 @@ h2::after {
   margin-top: 5px;
 }
 
-/*História*/
+/* Página História */
 
+.section1 p:nth-child(1) {
+    font-weight: bold;
+    color: #6b1e1e;
+}
+
+.titulo1::before {
+    content: "";
+    font-size: 1.2em;
+}
+
+.titulo1::after {
+    content: "";
+    font-size: 1.2em;
+}
+
+.animarLogo {
+    animation: pulsarLogo 2s infinite;
+}
+
+.vinicola:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
