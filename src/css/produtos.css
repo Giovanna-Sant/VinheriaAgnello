@@ -41,3 +41,7 @@
 .info_vinho ul li:nth-child(5) {
     color: #666;
 }
+
+.todos-vinho{
+    display: flex;
+}

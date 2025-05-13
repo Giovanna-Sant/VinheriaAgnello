@@ -95,9 +95,6 @@ h2::after {
     font-size: 1.2em;
 }
 
-.animarLogo {
-    animation: pulsarLogo 2s infinite;
-}
 
 .vinicola:hover {
     transform: scale(1.05);
