@@ -8,3 +8,36 @@
         gap: 16px
     }
 }
+
+.info_vinho ul {
+    list-style: none;
+    font-size: 16px;
+}
+
+.info_vinho ul li:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4B1D0C;
+    margin-bottom: 4px;
+}
+
+.info_vinho ul li:nth-child(2) {
+    color: #A60000;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.info_vinho ul li:nth-child(3) {
+    color: #333333;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.info_vinho ul li:nth-child(4) {
+    color: #FFA500; 
+    font-weight: bold;
+}
+
+.info_vinho ul li:nth-child(5) {
+    color: #666;
+}
